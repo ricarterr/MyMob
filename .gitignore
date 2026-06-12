@@ -19,7 +19,6 @@ obj/
 
 # TypeScript e Compiladores
 *.tsbuildinfo
-next-env.d.ts
 
 # Variáveis de Ambiente e Segredos (Segurança SaaS Crítica)
 .env
@@ -104,3 +103,14 @@ tmp/
 temp/
 /tmp/
 /temp/
+
+# PWA
+sw.js
+workbox-*.js
+
+# local database
+*.sqlite
+*.sqlite3
+
+# uploads
+uploads/
