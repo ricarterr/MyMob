@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <stop offset="0%" stop-color="#1e3a8a" stop-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Rounded Background Card -->
+  <rect width="512" height="512" rx="112" fill="url(#blueGrad)" />
+  
+  <!-- White Decorative Glow Ring -->
+  <rect x="24" y="24" width="464" height="464" rx="88" fill="none" stroke="#ffffff" stroke-width="8" stroke-opacity="0.15" />
+
+  <!-- Logo Graphics: Chat Bubble + House -->
+  <g transform="translate(4, 4)">
+    <!-- Speech bubble backdrop -->
+    <path d="M 252 110 C 158 110 82 176 82 258 C 82 304 104 346 140 375 L 126 430 C 124 437 131 443 138 440 L 198 412 C 215 417 233 420 252 420 C 346 420 422 354 422 272 C 422 190 346 110 252 110 Z" 
+          fill="#ffffff" 
+          fill-opacity="0.1" />
+
+    <!-- Chat bubble outline -->
+    <path d="M 252 110 C 158 110 82 176 82 258 C 82 304 104 346 140 375 L 126 430 C 124 437 131 443 138 440 L 198 412 C 215 417 233 420 252 420 C 346 420 422 354 422 272 C 422 190 346 110 252 110 Z" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="16" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- House silhouette inside -->
+    <!-- Roof -->
+    <path d="M 160 270 L 252 180 L 344 270" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="16" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- Walls -->
+    <path d="M 190 260 L 190 340 A 10 10 0 0 0 200 350 L 304 350 A 10 10 0 0 0 314 340 L 314 260" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="16" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- Door -->
+    <path d="M 236 350 L 236 304 A 6 6 0 0 1 242 298 L 262 298 A 6 6 0 0 1 268 304 L 268 350" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="16" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+          
+    <!-- Checkmark representing successful automated billing message -->
+    <circle cx="340" cy="180" r="34" fill="#10b981" stroke="#ffffff" stroke-width="8" />
+    <path d="M 324 180 L 334 190 L 356 168" 
+          fill="none" 
+          stroke="#ffffff" 
+          stroke-width="6" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+  </g>
+</svg>
